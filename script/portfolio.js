@@ -15,7 +15,7 @@ let videocard = document
     </head> 
  <body>
 <div class="project-video2">
-  <video src="./assets/myvideo.mov" autoplay controls ></video>
+<video src="./assets/myvideo.mp4" autoplay controls ></video>
 </div>
 </body>
 </html>
