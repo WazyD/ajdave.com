@@ -68,12 +68,13 @@ nav > h1 > span {
   color: rgba(184, 19, 82, 0.753);
 }
 .image {
-  width: 300px;
+  width: 35%;
+  margin-top: -70px;
 }
 .image img {
-  width: 90%;
-  border: 4px solid rgb(184, 19, 82);
-  border-radius: 10px;
+  width: 100%;
+  border: none;
+  opacity: 0.9;
 }
 
 section {
@@ -99,20 +100,6 @@ section {
   border-radius: 2px;
 }
 
-  .image {
-    width: 60%;
-    height: 60%;
-    background-size: cover;
-    background-image: url(/assets/Phone\ background.png);
-    float: right;
-    position: absolute;
-    left: 140px;
-    z-index: -1;
-    top: 200px;
-  }
-  .image img {
-    display: none;
-  }
 button {
   background-color: rgb(184, 19, 82);
   border: none;
@@ -362,29 +349,36 @@ footer {
     margin: 100px 0px !important;
   }
 
-  .image-text {
-    width: 60%;
+.image-text {
+    width: 90%;
+    z-index: 2;
   }
   .image-text h1 {
-    font-size: 25px;
+    font-size: 30px;
+    margin-bottom: -5px;
   }
   .image-text p {
     font-size: 7px;
-    padding: 3px 8px;
+    padding: 3px 5px;
     text-align: center;
     color: rgba(250, 235, 215, 0.698);
     background-color: rgba(87, 85, 85, 0.492);
     letter-spacing: 0.8em;
     border-radius: 2px;
   }
-
   .image {
-    width: 40%;
+    width: 60%;
+    height: 60%;
+    background-size: cover;
+    background-image: url(/assets/Phone\ background.png);
+    float: right;
+    position: absolute;
+    left: 140px;
+    z-index: -1;
+    top: 200px;
   }
   .image img {
-    width: 100%;
-    opacity: 0.9;
-    margin-top: 90px;
+    display: none;
   }
   button {
     background-color: rgb(184, 19, 82);
