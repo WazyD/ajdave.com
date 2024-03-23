@@ -99,15 +99,20 @@ section {
   border-radius: 2px;
 }
 
-.image {
-  width: 35%;
-  margin-top: -70px;
-}
-.image img {
-  width: 100%;
-  border: none;
-  opacity: 0.9;
-}
+  .image {
+    width: 60%;
+    height: 60%;
+    background-size: cover;
+    background-image: url(/assets/Phone\ background.png);
+    float: right;
+    position: absolute;
+    left: 140px;
+    z-index: -1;
+    top: 200px;
+  }
+  .image img {
+    display: none;
+  }
 button {
   background-color: rgb(184, 19, 82);
   border: none;
