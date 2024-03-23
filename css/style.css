@@ -383,7 +383,7 @@ footer {
     width: 60%;
     height: 60%;
     background-size: cover;
-    background-image: url(/assets/Phone\ background.png);
+    background-image: url(./assets/Phone\ background.png);
     float: right;
     position: absolute;
     left: 140px;
