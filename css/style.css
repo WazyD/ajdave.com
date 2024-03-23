@@ -277,12 +277,18 @@ footer {
   text-align: center;
   letter-spacing: 0.6em;
 }
+#cont {
+  display: none;
+}
 /* ``````````````````````````````````````````Mobile view ``````````````````````````````````` */
 
 @media only screen and (max-width: 600px) {
   .container {
     padding: 15px;
     margin: 0%auto;
+  }
+  #cont {
+    display: block;
   }
   .scroll a {
     font-size: 20px;
@@ -292,7 +298,8 @@ footer {
   nav .bx {
     display: block;
     color: white;
-    font-size: 30px;
+    font-size: 32px;
+    margin-top: -13px;
   }
   nav {
     display: flex;
@@ -357,38 +364,43 @@ footer {
     display: block;
     color: white;
     /* justify-content: space-between; */
-    margin: 100px 0px !important;
-    margin-bottom: 300px !important;
+    margin: 150px 0px !important;
+    margin-bottom: 400px !important;
   }
-
+  #about-me,
+  #projects {
+    padding: 50px 0px;
+  }
   .image-text {
     width: 90%;
     z-index: 2;
   }
   .image-text h1 {
-    font-size: 30px;
+    font-size: 35px;
     margin-bottom: -5px;
   }
   .image-text p {
     font-size: 7px;
-    padding: 3px 5px;
+    padding: 2px 3px;
     text-align: center;
     color: rgba(250, 235, 215, 0.698);
     background-color: rgba(87, 85, 85, 0.492);
     letter-spacing: 0.8em;
     border-radius: 2px;
+    width: 70%;
   }
 
   .image {
-    width: 60%;
-    height: 60%;
+    width: 70%;
+    height: 75%;
     background-size: cover;
     background-image: url(../assets/Phone\ background.png);
     float: right;
     position: absolute;
-    left: 140px;
+    left: 120px;
     z-index: -1;
-    top: 200px;
+    top: 250px;
+    opacity: 0.8;
   }
   .image img {
     display: none;
